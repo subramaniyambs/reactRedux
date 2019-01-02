@@ -20,6 +20,9 @@ class getformdata extends Component {
               <p>{post.body}</p>
             </div>
           ));
+          if(getItems.lenght < 0){
+            getItems = "No data found"
+          }
             return (
                 <div>
                     <h2>List of Data</h2>
